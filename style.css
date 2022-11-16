@@ -1,0 +1,220 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: "Comic Sans MS";  
+}
+
+.background-image{
+    background-image: url("images/davao_durian.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    border: 3px solid black;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 2.2em 2em;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0 .4em;
+}
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1.6em;
+    padding-bottom: 1.3em;
+    transition: .5s color;
+}
+
+nav ul li a:hover {
+    border-bottom: 3px solid #333;
+    padding: 3px;
+  }
+
+#culture:hover {
+color: #ff884d;
+}
+#traveltips:hover {
+color: #ff884d;
+}
+#itinerary:hover{
+    color: #ff884d
+}
+#photos:hover{
+    color: #ff884d
+}
+
+.text-block {
+    position: absolute;
+    text-align: right;
+    font-size: 45px;
+    top: 50px;
+    right: 100px;
+    color:  #161918;
+    opacity: .7;
+    width: 500px;
+  }
+
+
+section{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: table;
+    margin-top: 1px;
+}
+.culture-section{
+    /* background-image: url("images/kadayawan.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    display: table-cell;
+    border: 3px solid black;
+    background-color: wheat; 
+     
+}
+.column{
+    display: table;
+    float: left;
+    width: 20%;
+    height: 10%;
+    margin-left: 65px;
+    margin-top: 25px;
+}
+.culture-section h1, .culture-section p{
+    margin-left: 2%;
+    width: 90%;
+}
+.culture-content{
+    padding-left: 5px;
+    padding-top: 5%;
+    border: 3px solid black;
+    border-radius: 3%;
+    background-color: white;
+    text-align: center;
+}
+.culture-content img{
+    height: 200px;
+    width: 275px;
+}
+
+.travel-section{
+    background-color: wheat;
+    border: 3px solid black;
+    height: 100%;
+    display: table;
+}
+.travel-content img{
+    width: 45%;
+}
+
+.travel-content p{
+    float: right;
+    margin-right: 25px;
+    margin-top: 20px;
+    font-size: 26px;
+    width: 50%;
+    position: static;   
+    line-height: 2.5;
+}
+
+.travel-content2 img{
+    width: 50%;
+    float: right;
+    margin-right: 25px;
+    margin-bottom: 50px;
+
+}
+
+.travel-content2 p{
+    float: left;
+    margin-left: 25px;
+    margin-top: 35px;
+    font-size: 26px;
+    width: 45%;
+    height: 50%;
+    position: static;   
+    line-height: 2.5;
+}
+
+
+.travel-content3 img {
+    width: 45%;
+    float: left;
+    margin-top: 3%;
+    
+}
+
+.travel-content3 p{
+    float: right;
+    font-size: 26px;
+    margin-right: 50px;
+    width: 45%;
+    height: 50%;
+    position: static;   
+    line-height: 2.5;
+}
+
+.travel-guide{
+    display: table;
+    position: relative;
+    border: 2.3px solid black;
+    width: 99.7%;
+    height: 100%;
+    float: left;
+    background-color: wheat;
+}
+
+
+.travel-guide h1, .travel-guide h3, .travel-guide p, .travel-guide dl{
+    margin-left: 2%;
+    width: 90%;
+} 
+
+.travel-guide iframe{
+    margin-left: 7%;
+}
+.travel-guide img{
+    margin-left: 3%;
+}
+
+.itinerary-section{
+    background-color: wheat;
+    border: 3px solid black;
+    display: table;
+    width: 99.6%;
+    height: 100%;
+}
+
+.itinerary-section h1, .itinerary-section h3, .itinerary-section p, .itinerary-section ul{
+    margin-left: 2%;
+    width: 90%;
+}
+
+.hotel-section{
+    background-color: wheat;
+    border: 3px solid black;
+    height: 100%;
+    width: 99.6%;
+    display: table;
+}
+
+.hotel-section h1, dl{
+    margin-left: 2%;
+    width: 90%;
+}
